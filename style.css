@@ -953,8 +953,8 @@ textarea {
     content: "";
     position: absolute;
     top: 40px;
-    left: 12.5%;
-    right: 12.5%;
+    left: 11.5%;
+    right: 11.5%;
     height: 1px;
     background: linear-gradient(90deg, transparent, rgba(240, 121, 0, 0.8), transparent);
     z-index: 0;
