@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PixelZenix | AI Image Enhancement</title>
+    <title>Image Compressor | AI Image Compressor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -15,9 +15,10 @@
         <div class="container header-inner">
             <!-- <a href="#top" class="brand"> -->
                 <!-- <span class="brand-mark">PZ</span> -->
-                <span class="brand-text">Pixel<span>Zenix</span></span>
+                <span class="brand-text brand-text-plain">Image <span>Compressor</span></span>
             <!-- </a> -->
             <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">
+                <span></span>
                 <span></span>
                 <span></span>
             </button>
@@ -88,16 +89,16 @@
             </div>
             <div class="container hero-grid">
                 <div class="hero-copy reveal">
-                    <h1>Turn soft, noisy images into <span>sharp visual stories</span>.</h1>
-                    <p>Restores detail, improves lighting, removes noise, and scales your images. Fast enough for creators, polished enough for businesses.</p>
+                    <h1>Make heavy image files <span>light, fast, and ready</span>.</h1>
+                    <p>Compress photos without losing their visual impact. Perfect for portfolios, stores, websites, and quick sharing across any device.</p>
                     <div class="hero-actions">
-                        <a href="#compare" class="btn btn-primary">Enhance Now</a>
+                        <a href="#compare" class="btn btn-primary">Compress Now</a>
                         <a href="#features" class="btn btn-outline">See How It Works</a>
                     </div>
                     <div class="hero-stats">
-                        <div><strong>4x to 8x</strong><span>smart upscaling</span></div>
-                        <div><strong>1.2s</strong><span>average processing time</span></div>
-                        <div><strong>50k+</strong><span>images restored monthly</span></div>
+                        <div><strong>70%</strong><span>smaller average file size</span></div>
+                        <div><strong>1.2s</strong><span>average compression time</span></div>
+                        <div><strong>50k+</strong><span>images compressed monthly</span></div>
                     </div>
                 </div>
             </div>
@@ -125,30 +126,26 @@
             <span class="theme-particle"></span>
             <span class="theme-particle"></span>
         </div>
-<!-- 
-        <section class="section trust-strip">
-            <div class="container trust-row reveal">
-                <span>Used for portraits</span>
-                <span>e-commerce packs</span>
-                <span>archive restoration</span>
-                <span>social content</span>
-                <span>print-ready exports</span>
-            </div>
-        </section>-->
 
         <section class="section compare-section" id="compare">
             <div class="container">
                 <div class="section-heading reveal">
-                    <span class="eyebrow">See the difference</span>
-                    <h2>Compare the result <span>in real time</span></h2>
-                    <p>Drag the handle left and right to manually compare the original image with the enhanced result.</p>
+                    <span class="eyebrow">Results snapshot</span>
+                    <h2>See how compression helps <span>speed and page delivery</span></h2>
+                    <p>A lighter image library can improve load performance across landing pages, blogs, portfolios, and online stores.</p>
                 </div>
                 <div class="compare-card reveal reveal-delay-1">
-                    <div class="imagecontainer" aria-label="Manual image comparison slider">
-                        <img draggable="false" class="beforeimg" src="after.png" alt="Enhanced image result">
-                        <img draggable="false" class="afterimg" id="my-img" src="before.png" alt="Original image before enhancement">
-                        <input type="range" min="0" max="100" value="50" id="slider" aria-label="Move slider to compare before and after images">
-                        
+                    <div class="compare-showcase">
+                        <div class="compare-score-card compare-score-card-muted">
+                            <span class="compare-chip">Before optimization</span>
+                            <img src="performance-before.jpg" alt="Performance score before image optimization" class="compare-score-image">
+                            <p>Heavy image files can slow page rendering and make media-rich sections feel less responsive.</p>
+                        </div>
+                        <div class="compare-score-card compare-score-card-highlight">
+                            <span class="compare-chip">After Image Compressor</span>
+                            <img src="performance-after.png" alt="Performance score after image optimization" class="compare-score-image">
+                            <p>Compressed image assets help pages load faster and keep the browsing experience smoother across devices.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,13 +155,13 @@
             <div class="container feature-stack">
                 <article class="feature-row reveal">
                     <div class="feature-copy">
-                        <span class="eyebrow">Automatic color repair</span>
-                        <h3>Fix exposure and color <span>without over-editing</span></h3>
-                        <p>Flat phone photos, muddy shadows, and incorrect white balance are corrected automatically. The output stays natural so your image feels upgraded, not over-processed.</p>
+                        <span class="eyebrow">Smart web compression</span>
+                        <h3>Shrink file size <span>without making images look weak</span></h3>
+                        <p>Large photos are compressed into lighter files that still feel clean, vibrant, and presentation-ready across websites, apps, and landing pages.</p>
                         <ul class="feature-points">
-                            <li>Smart brightness and contrast balancing</li>
-                            <li>Natural skin tones and clean highlights</li>
-                            <li>Fast one-click correction for batch workflows</li>
+                            <li>Clean output for websites, blogs, and portfolios</li>
+                            <li>Balanced compression with visual clarity in mind</li>
+                            <li>Fast one-click processing for batches of images</li>
                         </ul>
                     </div>
                     <div class="feature-visual">
@@ -174,13 +171,13 @@
 
                 <article class="feature-row feature-row-reverse reveal">
                     <div class="feature-copy">
-                        <span class="eyebrow">Detail reconstruction</span>
-                        <h3>Bring back texture instead of adding <span>fake sharpness</span></h3>
-                        <p>PixelZenix rebuilds lost detail with AI models designed for real photographs, old scans, and low-resolution assets. That means cleaner edges and a more believable finish.</p>
+                        <span class="eyebrow">Adaptive file reduction</span>
+                        <h3>Compress high-resolution shots <span>for faster loading</span></h3>
+                        <p>Image Compressor reduces image weight intelligently so product shots, creative work, and gallery images load quickly without feeling overly soft or washed out.</p>
                         <ul class="feature-points">
-                            <li>Great for portraits, nature, and product shots</li>
-                            <li>Reduces crunchy halos and oversharpening</li>
-                            <li>Works well for social media and print export</li>
+                            <li>Great for product images, banners, and portfolios</li>
+                            <li>Keeps edges cleaner than basic compression tools</li>
+                            <li>Useful for social media, landing pages, and stores</li>
                         </ul>
                     </div>
                     <div class="feature-visual">
@@ -188,22 +185,6 @@
                     </div>
                 </article>
 
-                <article class="feature-row reveal">
-                    <div class="feature-copy">
-                        <span class="eyebrow">Restore old memories</span>
-                        <h3>Repair worn family photos <span>with cleaner faces and textures</span></h3>
-                        <p>Old photos with fading, blur, and visible damage can be restored into frame-worthy results while keeping the original feeling of the moment intact.</p>
-                        <ul class="feature-points">
-                            <li>Helpful for archive recovery and heritage projects</li>
-                            <li>Better face clarity for group photos</li>
-                            <li>Subtle restoration that preserves the image mood</li>
-                        </ul>
-                    </div>
-                    <div class="feature-visual">
-                        <img src="restore.jpg" alt="Sample enhanced photo example one" class="feature-image">
-                       
-                    </div>
-                </article>
             </div>
         </section>
 
@@ -213,9 +194,9 @@
             <div id="stars3"></div>
             <div class="container">
                 <div class="process-header reveal">
-                    <h2 class="section-title">Four Steps to<br><span class="outline">Perfection</span></h2>
+                    <h2 class="section-title">Four Steps to<br><span class="outline">Lighter Images</span></h2>
                     <p class="process-lead">
-                        PixelZenix uses a multi-stage enhancement flow that understands context, not just pixels.
+                        Image Compressor uses a smart compression flow that cuts file size while keeping images clean and usable.
                     </p>
                 </div>
                 <div class="steps-grid">
@@ -230,22 +211,22 @@
                         <div class="step-number-wrap">
                             <div class="step-number">02</div>
                         </div>
-                        <div class="step-title">Configure Enhancement</div>
-                        <div class="step-desc">Choose scale factor, noise reduction level, and enable face restoration or color correction if needed.</div>
+                        <div class="step-title">Choose Compression Level</div>
+                        <div class="step-desc">Pick the balance you want between file size and image quality for websites, portfolios, stores, or quick sharing.</div>
                     </div>
                     <div class="step-card reveal" data-reveal="up">
                         <div class="step-number-wrap">
                             <div class="step-number">03</div>
                         </div>
-                        <div class="step-title">AI Processes in Cloud</div>
-                        <div class="step-desc">Multi-pass neural enhancement on dedicated GPUs. Done in under a second with no queue and no waiting.</div>
+                        <div class="step-title">Smart Compression Runs</div>
+                        <div class="step-desc">Image Compressor analyzes the image and reduces unnecessary weight in seconds, with smooth output and no messy artifacts.</div>
                     </div>
                     <div class="step-card reveal" data-reveal="right">
                         <div class="step-number-wrap">
                             <div class="step-number">04</div>
                         </div>
-                        <div class="step-title">Download and Share</div>
-                        <div class="step-desc">Your enhanced image is ready. Download, share a link, or auto-save straight to cloud storage.</div>
+                        <div class="step-title">Download and Publish</div>
+                        <div class="step-desc">Your compressed image is ready to download, share, upload to your site, or save straight into cloud storage.</div>
                     </div>
                 </div>
             </div>
@@ -255,18 +236,18 @@
             <div class="container">
                 <div class="section-heading reveal">
                     <span class="eyebrow">Pricing</span>
-                    <h2>Plans that grow <span>with your workflow</span></h2>
-                    <p>Clean pricing, flexible usage, and a better starting point for solo creators or large teams.</p>
+                    <h2>Plans that scale <span>with your image volume</span></h2>
+                    <p>Simple pricing for casual uploads, content teams, and businesses compressing images every day.</p>
                 </div>
                 <div class="pricing-grid">
                     <article class="price-card reveal">
                         <span class="plan-name">Starter</span>
                         <div class="plan-price"><sup>$</sup>0<span>/mo</span></div>
-                        <p class="plan-copy">Perfect for hobbyists and casual users exploring AI enhancement.</p>
+                        <p class="plan-copy">Perfect for casual users who want lighter images for personal sites, social posts, or quick sharing.</p>
                         <ul class="plan-list">
-                            <li>10 enhancements per month</li>
-                            <li>Up to 4x upscaling</li>
-                            <li>Basic noise removal</li>
+                            <li>10 compressions per month</li>
+                            <li>Standard image optimization</li>
+                            <li>Basic quality control</li>
                             <li>JPEG and PNG export</li>
                         </ul>
                         <a href="#contact" class="btn btn-outline btn-full">Get Started Free</a>
@@ -275,25 +256,25 @@
                         <span class="plan-badge">Most Popular</span>
                         <span class="plan-name">Pro</span>
                         <div class="plan-price"><sup>$</sup>19<span>/mo</span></div>
-                        <p class="plan-copy">For creators and photographers who need premium output on a regular basis.</p>
+                        <p class="plan-copy">For creators, stores, and agencies that need polished compression on a regular basis.</p>
                         <ul class="plan-list">
-                            <li>500 enhancements per month</li>
-                            <li>Up to 8x upscaling</li>
-                            <li>Advanced noise and artifact removal</li>
+                            <li>500 compressions per month</li>
+                            <li>Advanced compression presets</li>
+                            <li>Lower artifact output</li>
                             <li>RAW, TIFF, and WEBP export</li>
                             <li>Batch processing for 50 images</li>
-                            <li>Face enhancement AI</li>
+                            <li>Priority processing speed</li>
                         </ul>
                         <a href="#contact" class="btn btn-primary btn-full">Start Pro Trial</a>
                     </article>
                     <article class="price-card reveal reveal-delay-2">
                         <span class="plan-name">Business</span>
                         <div class="plan-price"><sup>$</sup>79<span>/mo</span></div>
-                        <p class="plan-copy">Built for agencies and high-volume teams that need automation and scale.</p>
+                        <p class="plan-copy">Built for teams handling large media libraries, product catalogs, and automated publishing pipelines.</p>
                         <ul class="plan-list">
-                            <li>Unlimited enhancements</li>
-                            <li>Up to 8x upscaling</li>
-                            <li>Full restoration suite</li>
+                            <li>Unlimited compressions</li>
+                            <li>High-efficiency compression modes</li>
+                            <li>Bulk optimization controls</li>
                             <li>All export formats</li>
                             <li>Unlimited batch processing</li>
                             <li>REST API and SLA support</li>
@@ -307,24 +288,24 @@
         <section class="section reviews-section" id="reviews">
             <div class="container">
                 <div class="section-heading reveal">
-                    <span class="eyebrow">Loved by creators</span>
-                    <h2>Real feedback from people using <span>PixelZenix</span></h2>
-                    <p>These are the kinds of workflows the product is designed to support: restoration, product work, and professional photography.</p>
+                    <span class="eyebrow">Trusted by teams</span>
+                    <h2>Real feedback from people using <span>Image Compressor</span></h2>
+                    <p>From online stores to creative portfolios, these are the workflows where fast image compression matters most.</p>
                 </div>
                 <div class="reviews-grid">
                     <article class="review-card reveal">
                         <div class="stars" aria-label="5 star review">★★★★★</div>
-                        <p>PixelZenix transformed my old family photo archive. Images I had almost given up on are now clean, clear, and genuinely frame-worthy.</p>
+                        <p>Image Compressor helped me shrink a full gallery for my website without making the photos feel cheap. My pages load faster and still look premium.</p>
                         <div class="review-author"><span class="avatar">SK</span><div><strong>Sara Kim</strong><span>Lifestyle Photographer, Seoul</span></div></div>
                     </article>
                     <article class="review-card reveal reveal-delay-1">
                         <div class="stars" aria-label="5 star review">★★★★★</div>
-                        <p>We integrated the business workflow into our product pipeline and immediately saved hours of manual retouching every single week.</p>
+                        <p>We added Image Compressor to our product pipeline and cut upload times dramatically. The files are lighter, the storefront feels faster, and the team saves time every week.</p>
                         <div class="review-author"><span class="avatar">MR</span><div><strong>Marcus Reid</strong><span>CTO, StyleGrid Commerce</span></div></div>
                     </article>
                     <article class="review-card reveal reveal-delay-2">
                         <div class="stars" aria-label="5 star review">★★★★★</div>
-                        <p>I have tried a lot of AI upscalers. This is one of the few that keeps straight lines and architectural details looking believable.</p>
+                        <p>I have tried plenty of compression tools, but this is one of the few that keeps architectural edges looking clean while still reducing file size enough for web delivery.</p>
                         <div class="review-author"><span class="avatar">JP</span><div><strong>Juliette Perrin</strong><span>Architectural Photographer, Paris</span></div></div>
                     </article>
                 </div>
@@ -335,8 +316,8 @@
             <div class="container contact-grid">
                 <div class="contact-copy reveal">
                     <span class="eyebrow">Contact us</span>
-                    <h2>Let's build something <span>beautiful together</span></h2>
-                    <p>Need help choosing a plan, booking a demo, or discussing a custom workflow? Send a message and we'll get back to you quickly.</p>
+                    <h2>Let's compress smarter <span>for faster websites</span></h2>
+                    <p>Need help choosing a plan, setting up bulk compression, or fitting Image Compressor into your workflow? Send a message and we will get back to you quickly.</p>
                     <div class="contact-list">
                         <div class="contact-item"><i class="fa-solid fa-location-dot"></i><span>123 Innovation Lane, Portland, OR 97201</span></div>
                         <div class="contact-item"><i class="fa-solid fa-phone"></i><span>+91 98765 43210</span></div>
@@ -361,7 +342,7 @@
                         </select>
                     </div>
                     <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us how we can help..." required></textarea></div>
-                    <button type="submit" class="btn btn-primary " id="contactSubmit">Send Message</button>
+                    <button type="submit" class="btn btn-primary" id="contactSubmit">Send Message</button>
                     <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
                 </form>
             </div>
@@ -372,15 +353,14 @@
         <div class="container footer-grid">
             <div>
                 <a href="#top" class="brand footer-brand">
-                    
-                    <span class="brand-text">Pixel<span>Zenix</span></span>
+                    <span class="brand-text brand-text-plain">Image <span>Compressor</span></span>
                 </a>
-                <p>Transform blurry, low-resolution images into polished visuals powered by AI enhancement.</p>
+                <p>Compress heavy images into lighter web-ready files without losing the polished look your brand needs.</p>
             </div>
             <div class="footer-links">
                 <h4>Product</h4>
-                <a href="#features">AI Enhancer</a>
-                <a href="#compare">Upscaler</a>
+                <a href="#features">Compressor</a>
+                <a href="#compare">Before / After</a>
                 <a href="#pricing">Pricing</a>
             </div>
             <div class="footer-links">
@@ -400,7 +380,7 @@
             </div>
         </div>
         <div class="container footer-bottom">
-            <p>&copy; 2026 PixelZenix. All rights reserved.</p>
+            <p>&copy; 2026 Image Compressor. All rights reserved.</p>
         </div>
     </footer>
 
@@ -409,4 +389,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
