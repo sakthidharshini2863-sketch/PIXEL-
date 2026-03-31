@@ -1024,7 +1024,7 @@ textarea {
     right: 12.5%;
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--orange), transparent);
-    z-index: 0;
+    z-index:0;
 }
 
 .step-card {
