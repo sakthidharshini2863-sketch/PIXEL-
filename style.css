@@ -1432,6 +1432,22 @@ textarea {
     justify-items: start;
 }
 
+
+.footer-links a,
+.footer-brand {
+    display: inline-flex;
+    width: fit-content;
+    padding: 0;
+}
+
+.footer-links a:hover,
+.footer-brand:hover,
+.footer-bottom a:hover,
+.footer-socials a:hover {
+    color: var(--accent);
+}
+
+
 .footer-links a,
 .footer-socials a,
 .footer-bottom a,
