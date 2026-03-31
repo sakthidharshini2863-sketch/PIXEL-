@@ -1020,11 +1020,11 @@ textarea {
     content: '';
     position: absolute;
     top: 40px;
-    left: 12.5%;
-    right: 12.5%;
+    left: 1.5%;
+    right: 1.5%;
     height: 2px;
     background: linear-gradient(90deg, transparent, var(--orange), transparent);
-    z-index:0;
+    z-index: 0;
 }
 
 .step-card {
