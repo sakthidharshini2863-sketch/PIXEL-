@@ -1017,14 +1017,13 @@ textarea {
 }
 
 .steps-grid::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 40px;
-    left: 11.5%;
-    right: 11.5%;
+    left: 12.5%;
+    right: 12.5%;
     height: 1px;
-    background: linear-gradient(90deg, rgba(240, 121, 0, 0.9), rgba(248, 161, 69, 0.95), rgba(240, 121, 0, 0.9));
-    box-shadow: 0 0 18px rgba(240, 121, 0, 0.28);
+    background: linear-gradient(90deg, transparent, var(--orange), transparent);
     z-index: 0;
 }
 
