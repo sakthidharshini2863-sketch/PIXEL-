@@ -107,9 +107,46 @@ textarea {
     margin: 0 auto 48px;
     text-align: center;
 }
-
-.section-heading h2,
 .contact-copy h2 {
+    font-size: clamp(1.7rem, 3.9vw, 2.75rem);
+    font-family: var(--font-display);
+    
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.contact-copy p,
+.form-field input,
+.form-field select,
+.form-field textarea {
+    font-size: 0.9rem;
+    color: #d4cec8;
+    
+}
+
+
+
+
+
+
+
+.footer-links a,
+.footer-brand {
+    display: inline-flex;
+    width: fit-content;
+}
+.footer-links a:hover,
+.footer-socials a:hover,
+.footer-bottom a:hover
+ {
+    color: var(--accent);
+}
+
+
+
+.section-heading h2 {
     font-family: var(--font-display);
     font-size: clamp(2rem, 4.7vw, 3.45rem);
     line-height: 0.98;
@@ -127,7 +164,7 @@ textarea {
 
 .section-heading p,
 .feature-copy p,
-.contact-copy p,
+
 .hero-copy p {
     color: #d4cec8;
     font-size: 0.96rem;
@@ -953,12 +990,14 @@ textarea {
     content: "";
     position: absolute;
     top: 40px;
-    left: 12.5%;
-    right: 12.5%;
+    left: 11.5%;
+    right: 11.5%;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(240, 121, 0, 0.8), transparent);
+    background: linear-gradient(90deg, rgba(240, 121, 0, 0.9), rgba(248, 161, 69, 0.95), rgba(240, 121, 0, 0.9));
+    box-shadow: 0 0 18px rgba(240, 121, 0, 0.28);
     z-index: 0;
 }
+
 
 .step-card {
     padding: 0 24px;
@@ -1177,8 +1216,6 @@ textarea {
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 14px;
-    padding: 13px 15px;
     border-radius: 18px;
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.04), rgba(240, 121, 0, 0.04));
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1186,6 +1223,9 @@ textarea {
     transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
     backface-visibility: hidden;
     transform: translateZ(0);
+    gap: 12px;
+    padding: 11px 13px;
+    font-size: 0.92rem;
 }
 
 .contact-item i {
@@ -1205,18 +1245,19 @@ textarea {
 .form-row {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
+     gap: 12px;
 }
 
 .form-field {
-    display: grid;
-    gap: 8px;
-    margin-bottom: 12px;
+    display: grid;   
+    gap: 6px;
+    margin-bottom: 10px;
 }
+
 
 .form-field label {
     color: #f0e6d8;
-    font-size: 0.76rem;
+    font-size: 0.60rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1347,6 +1388,7 @@ textarea {
     display: grid;
     align-content: start;
     gap: 10px;
+    justify-items: start;
 }
 
 .footer-links a,
@@ -1357,12 +1399,7 @@ textarea {
     transition: color 0.25s ease;
 }
 
-.footer-links a:hover,
-.footer-socials a:hover,
-.footer-bottom a:hover,
-.footer-brand:hover {
-    color: var(--accent);
-}
+
 
 .footer-links h4 {
     margin-bottom: 6px;
