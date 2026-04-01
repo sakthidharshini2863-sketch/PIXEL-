@@ -1011,20 +1011,19 @@ textarea {
 
 .steps-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
     position: relative;
 }
 
 .steps-grid::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 40px;
-    left: 11.5%;
-    right: 11.5%;
-    height: 1px;
-    background: linear-gradient(90deg, rgba(240, 121, 0, 0.9), rgba(248, 161, 69, 0.95), rgba(240, 121, 0, 0.9));
-    box-shadow: 0 0 18px rgba(240, 121, 0, 0.28);
+    left: 1.5%;
+    right: 1.5%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--orange), transparent);
     z-index: 0;
 }
 
@@ -1045,8 +1044,8 @@ textarea {
 .step-number {
     width: 80px;
     height: 80px;
-    background: linear-gradient(145deg, rgba(12, 12, 12, 0.95), rgba(240, 121, 0, 0.12));
-    border: 1px solid rgba(240, 121, 0, 0.72);
+    background: var(--grey-dark);
+    border: 1px solid var(--orange);
     border-radius: 50%;
     display: flex;
     align-items: center;
